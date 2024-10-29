@@ -101,7 +101,7 @@ export default class App extends React.Component {
         edit: !item.edit,
       };
       const newData = [...prevState.todoData.slice(0, index), newItem, ...prevState.todoData.slice(index + 1)];
-  
+
       return {
         todoData: newData,
         forFilterData: newData,

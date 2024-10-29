@@ -9,9 +9,7 @@ function TaskView({ label, timeAgo, check, done, onToogleCheck, onSwitchEditing,
         <span className="description">{label}</span>
         <span className="created">{timeAgo}</span>
       </label>
-      {!done && (
-        <button className="icon icon-edit" onClick={onSwitchEditing}></button>
-      )}
+      {!done && <button className="icon icon-edit" onClick={onSwitchEditing}></button>}
       <button className="icon icon-destroy" onClick={delTodo}></button>
     </div>
   );
