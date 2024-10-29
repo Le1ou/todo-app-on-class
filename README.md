@@ -18,4 +18,4 @@
 
 ## Ссылка на приложение
 
-[Открыть TODO Приложение](https://todo-mgay2tz25-le1ous-projects.vercel.app/)
+[Открыть TODO Приложение](https://todo-app-on-class.vercel.app/)
